@@ -83,3 +83,20 @@ body {
 #popup span:hover {
     color: red;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 700px) {
+    .secret {
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+    .content {
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+}
